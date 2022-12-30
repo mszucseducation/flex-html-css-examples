@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+    <body>
+
+        <h1 id="largeText">Hi Everyone!</h1>
+        <button id="buttonId" onclick="changeDisplay()">Change text</button>
+
+        <script>
+            function changeDisplay() {
+                document.getElementById("largeText").innerHTML = "Keep on studying!";
+                document.getElementById("buttonId").classList.add('hide');
+            }
+        </script>
+    </body>
+</html>
